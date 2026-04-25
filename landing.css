@@ -1,0 +1,226 @@
+
+.poppins-normal {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+  /* header */
+.bg{
+    background-color: #FFF8F3;
+    height: 180px;
+}
+
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.tech {
+    color: burlywood;
+}
+.bg-color {
+    background-color: ;
+}
+.nav-title{
+    pos
+}
+
+
+}
+/* banner styles */
+.banner-image{
+    background-image: url(Images/robot-hand-3d-background-presenting-technology-gesture_53876-143119.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-size: cover;
+    margin: 150px 350px;
+    
+}
+
+.nav-title{
+    color: #474747;
+    padding: 20px;
+}
+
+/* banner styles */
+.banner{
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px
+    
+}
+.tech2{
+    color: blue;
+    max-width: 400px;
+}
+
+
+/* section styles */
+.section-title{
+    padding-top: 50px;
+    color: blanchedalmond;
+    font-size: 30px;
+    text-shadow: 0cap;
+}
+
+.section-subtitle{
+    font-size: 25px;
+    margin-right: 20px;
+    color: #757575;
+    padding: 10px;
+
+}
+.your{
+}
+.tecnology{
+    color: burlywood;
+}
+.get{
+    font-size: larger;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: 70%;
+    
+}
+
+/* shared styles */
+.img1{
+    height: 80px;
+    display: block;
+    
+}
+.img2{
+    height: 80px;
+    display: block;
+}
+.img3{
+    height: 80px;
+    display: block;
+}
+.text-center{
+    align-items: center;
+}
+
+.background{
+    background-color: #FFF8F3;
+    padding: 40px;
+    margin: 80px 380px;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+}
+a .btn:hover{
+    background-color: #4338CA;
+}
+
+/* features section styles */
+.Features-container{
+    display: flex;
+    gap: 24px;
+    padding: 0px 350px;
+    justify-content: center;
+}
+
+.Features-more{
+    padding:50px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 26, 0.06);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+    transition: 1s;
+    
+}
+
+.features{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 200px;
+    margin: 2000px;
+}
+
+.Features-more:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+/* section styles */
+.section-title2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.section-description{
+    text-align: center;
+    font-weight: lighter;
+    padding: 5px 350px;
+    max-width: 1140px;
+    justify-content: space-around;
+    max-height: max-content;
+    color: #757575;
+    
+}
+
+.Features-container:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+/* about styles */
+.about-items{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+.contact-title{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.contact{
+    text-align: center;
+    padding: 
+}
+
+.contacts-title{
+    font-size: large;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-description{
+    color: #757575;
+}
