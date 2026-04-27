@@ -108,16 +108,16 @@ nav ul{
 /* shared styles */
 .img1{
     height: 80px;
-    display: block;
+    display: inline-block;
     
 }
 .img2{
     height: 80px;
-    display: block;
+    display: inline
 }
 .img3{
     height: 80px;
-    display: block;
+    display: inline-block;
 }
 .text-center{
     align-items: center;
@@ -140,6 +140,8 @@ nav ul{
 }
 a .btn:hover{
     background-color: #4338CA;
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
 }
 
 /* features section styles */
@@ -223,4 +225,27 @@ a .btn:hover{
 }
 .contact-description{
     color: #757575;
+}
+
+
+.tech:hover{
+     0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+
+}
+
+.get{
+    position: relative;
+    right: 500px;
+}
+button:hover .after{
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
 }
