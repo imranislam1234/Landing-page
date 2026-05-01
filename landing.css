@@ -133,12 +133,11 @@ nav ul{
     
 }
 .img2{
-    height: 80px;
-    display: inline
+    height: 80px;;
 }
 .img3{
     height: 80px;
-    display: inline-block;
+    display: block;
 }
 .text-center{
     align-items: center;
@@ -147,6 +146,7 @@ nav ul{
 .background{
     background-color: #FFF8F3;
     padding: 40px;
+    margin-top: 60px;
 }
 
 .btn{
@@ -182,22 +182,24 @@ a .btn:hover{
 
 
 /* features section styles */
-.Features-container{
+.Features-container {
     display: flex;
     gap: 24px;
     padding: 0px 350px;
     justify-content: center;
+    margin-bottom: 10px;
     
 }
 
 .Features-more{
     padding:50px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 26, 0.06);
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 10px;
     margin-top: 10px;
     justify-content: space-around;
-    transition: 0.5s;
+    transition: 0.2s;
+    margin-bottom: 20px;
     
 }
 
