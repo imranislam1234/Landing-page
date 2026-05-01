@@ -4,10 +4,22 @@
   font-weight: 100;
   font-style: normal;
 
+
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
   /* header */
 .bg{
     background-color: #FFF8F3;
-    height: 180px;
+    height: 120px;
+}
+
+/* main styles */
+main{
+    max-width: 1140;
+    align-items: center;
 }
 
 
@@ -37,6 +49,7 @@ nav ul{
 }
 .bg-color {
     background-color: ;
+    padding: 10px;
 }
 .nav-title{
     pos
@@ -45,17 +58,27 @@ nav ul{
 
 }
 /* banner styles */
-.banner-image{
-    background-image: url(Images/robot-hand-3d-background-presenting-technology-gesture_53876-143119.avif);
+/* .banner-image{ */
+    background-image: url(Images/science.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.banner-card {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.image{
+    background-size: cover;
+    width: 100%;
     height: 500px;
     background-position-x: center;
-    background-position-y: center;
-    background-size: contain;
-    background-size: cover;
-    margin: 150px 350px;
-    
+    position:relative;
 }
 
 .nav-title{
@@ -66,49 +89,47 @@ nav ul{
 /* banner styles */
 .banner{
     text-align: center;
-    padding: 40px;
-    margin-top: 40px
+    /* padding: 40px; */
+    margin-top: 10px;
+    font-size: 40px;
     
 }
-.tech2{
-    color: blue;
-    max-width: 400px;
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    padding: 60px;
+    text-align: center;
+}
+
+.image2{
+    position: relative;
+    top: 100%;
+    left: 100%;
 }
 
 
-/* section styles */
-.section-title{
-    padding-top: 50px;
-    color: blanchedalmond;
-    font-size: 30px;
-    text-shadow: 0cap;
-}
+
+
+/* banner styles */
 
 .section-subtitle{
-    font-size: 25px;
-    margin-right: 20px;
-    color: #757575;
-    padding: 10px;
+    color: #4338CA;
+    font-size: 50px;
+    font-weight: 800;
+}
+.section-title{
+    font-weight: 900;
+}
 
-}
-.your{
-}
-.tecnology{
-    color: burlywood;
-}
-.get{
-    font-size: larger;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: 70%;
-    
-}
+
+
 
 /* shared styles */
 .img1{
     height: 80px;
-    display: inline-block;
+    display: block;
     
 }
 .img2{
@@ -126,7 +147,6 @@ nav ul{
 .background{
     background-color: #FFF8F3;
     padding: 40px;
-    margin: 80px 380px;
 }
 
 .btn{
@@ -144,12 +164,30 @@ a .btn:hover{
     filter: drop-shadow(0 0 10px #fffdef);
 }
 
+.font-img{
+    position: relative;
+    left: 35%;
+    top: 20%;
+}
+
+.tech1{
+    color: brown;
+}
+
+.learn{
+    font-weight: 800;
+    padding: 10px;
+}
+
+
+
 /* features section styles */
 .Features-container{
     display: flex;
     gap: 24px;
     padding: 0px 350px;
     justify-content: center;
+    
 }
 
 .Features-more{
@@ -159,27 +197,28 @@ a .btn:hover{
     margin-left: 10px;
     margin-top: 10px;
     justify-content: space-around;
-    transition: 1s;
+    transition: 0.5s;
     
 }
 
 .features{
     font-weight: bolder;
     font-size: larger;
-    padding: 200px;
-    margin: 2000px;
+    
+    
+    
 }
 
 .Features-more:hover{
-    transform: scale(1.3);
-    z-index: 2;
+    transform: scale(1.1);
+    z-index: 3;
 }
 
 /* section styles */
 .section-title2{
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 10px;
+    /* margin-bottom:px; */
     font-weight: 900;
 }
 
@@ -240,12 +279,17 @@ a .btn:hover{
   }
 
 }
-
-.get{
-    position: relative;
-    right: 500px;
+.btn2{
+    position: absolute;
+    top: 100%;
+    left: 90%;
+    size: 500;
 }
 button:hover .after{
     display: block;
     filter: drop-shadow(0 0 10px #fffdef);
+}
+
+.text{
+    font-weight: 700;
 }
